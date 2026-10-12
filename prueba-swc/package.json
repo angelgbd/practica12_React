@@ -1,0 +1,15 @@
+{
+  "name": "prueba-swc",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "compilar": "swc saludo.jsx",
+    "compilar:sin-configuracion": "swc saludo.jsx --no-swcrc",
+    "compilar:clasico": "swc saludo.jsx --config-file .swcrc.classic.json",
+    "compilar:automatico": "swc saludo.jsx --config-file .swcrc"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.7.9",
+    "@swc/core": "^1.15.0"
+  }
+}
